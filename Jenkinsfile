@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/harshitshankar/user-management.git'
+                git branch: 'master', url: 'https://github.com/harshitshankar/user-managament-Terraform.git'
             }
         }
 
