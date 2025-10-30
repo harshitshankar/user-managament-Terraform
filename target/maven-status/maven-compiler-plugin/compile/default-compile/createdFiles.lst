@@ -1,0 +1,7 @@
+com\example\usermgmt\kafka\UserConsumer.class
+com\example\usermgmt\kafka\UserProducer.class
+com\example\usermgmt\controller\UserController.class
+com\example\usermgmt\model\User.class
+com\example\usermgmt\service\UserService.class
+com\example\usermgmt\repository\UserRepository.class
+com\example\usermgmt\UserMgmtApplication.class

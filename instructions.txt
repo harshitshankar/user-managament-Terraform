@@ -1,0 +1,12 @@
+# Step 1: Stop and clean old containers
+docker compose down -v
+
+# Step 2: Start new clean setup
+docker compose up -d
+
+# Step 3: Check logs
+docker logs -f userdb     # wait until 'ready for connections'
+docker logs -f usermgmt   # should start successfully
+
+# Step 4: Access your app
+http://localhost:8081
