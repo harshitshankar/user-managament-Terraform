@@ -20,4 +20,13 @@ This is a small **enterprise-style Spring Boot application** that manages users,
 ## terraform apply -input=false -auto-approve tfplan
 
 ## terraform show
+
+## My personal guide 
+
+terraform init	Initialize Terraform & download Docker provider
+terraform plan	See what Terraform will create (preview)
+terraform apply -auto-approve	Actually create the containers
+terraform show	Display current state (what’s running)
+terraform output	Show URLs/ports you exposed
+terraform destroy -auto-approve	Stop & remove everything (cleanup)
      
