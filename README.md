@@ -15,10 +15,9 @@ This is a small **enterprise-style Spring Boot application** that manages users,
 - Git
 - Postman (for testing APIs)
 
----
+##terraform init -input=false'
+##terraform plan -out=tfplan -input=false
+##terraform apply -input=false -auto-approve tfplan
 
-## Setup
-
-### 1. Start MySQL + Kafka via Docker Compose
-```bash
-docker-compose up -d
+##terraform show
+     
